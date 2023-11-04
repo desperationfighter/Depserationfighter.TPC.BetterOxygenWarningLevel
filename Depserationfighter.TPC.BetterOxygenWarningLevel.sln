@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterOxygenWarningLevel", "BetterOxygenWarningLevel\BetterOxygenWarningLevel.csproj", "{B9EC22F4-FAF8-4922-93C3-B549BC850482}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9EC22F4-FAF8-4922-93C3-B549BC850482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9EC22F4-FAF8-4922-93C3-B549BC850482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9EC22F4-FAF8-4922-93C3-B549BC850482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9EC22F4-FAF8-4922-93C3-B549BC850482}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98AD8025-FA8C-4742-8F92-6589403BBCD5}
+	EndGlobalSection
+EndGlobal
