@@ -17,7 +17,7 @@ namespace BetterOxygenWarningLevel
         public new static ManualLogSource Logger { get; private set; }
         public const string GUID = "Desperationfighter.TPC.BetterOxygenWarningLevel";
         public const string Name = "Better Oxygen Warning Level";
-        public const string Version = "1.0.0.0"; //Remmber to Update Assembly Version too !
+        public const string Version = "1.0.1.0"; //Remmber to Update Assembly Version too !
 
         public static float MaxValue;
 

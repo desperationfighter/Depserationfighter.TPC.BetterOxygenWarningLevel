@@ -73,7 +73,9 @@ namespace BetterOxygenWarningLevel.Patches
                         if (!halftimealreadytiggered)
                         {
                             //Plugin.MyDebugLogger($"Halftime - Innerhalf triggered");
-                            Managers.GetManager<BaseHudHandler>().DisplayCursorText("UI_WARN_OXYGEN_HALF", 3f, "Oxygen half Capacity");
+                            //Managers.GetManager<BaseHudHandler>().DisplayCursorText("UI_WARN_OXYGEN_HALF", 3f, "Oxygen half Capacity");
+                            Managers.GetManager<BaseHudHandler>().DisplayCursorText("", 3f, "Oxygen half Capacity");
+                            //Managers.GetManager<BaseHudHandler>().DisplayInfoText
                             if (Plugin.HalftimeWarning_withSignal.Value)
                             {
                                 //Plugin.MyDebugLogger($"Halftime - Innerhalf Sound");
@@ -114,7 +116,8 @@ namespace BetterOxygenWarningLevel.Patches
                         if (!SixtySecondWarningtriggered)
                         {
                             //Plugin.MyDebugLogger("Sixty - Sixyty Warning triggered : True");
-                            Managers.GetManager<BaseHudHandler>().DisplayCursorText("UI_WARN_OXYGEN_SIXTYSEC", 3f, "Oxygen Sixty Seconds");
+                            //Managers.GetManager<BaseHudHandler>().DisplayCursorText("UI_WARN_OXYGEN_SIXTYSEC", 3f, "Oxygen Sixty Seconds");
+                            Managers.GetManager<BaseHudHandler>().DisplayCursorText("", 3f, "Oxygen Sixty Seconds");
                             if (Plugin.SixtySecWarning_withSignal.Value)
                             {
                                 //Plugin.MyDebugLogger("Sixty - With Sounds : True");
